@@ -1,0 +1,245 @@
+.wrapper {
+	max-width: 100%;
+	padding: 0 1em;
+}
+	
+
+.cover {
+	max-width: 100%;
+		
+}
+
+
+  
+
+
+
+
+#section1 {
+	background-image: url("services.JPG");
+	
+	background-color: SlateBlue;
+	
+	background-color: none;
+	color: white;
+	height: 45vh;
+	background-size: cover;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+	
+	
+}
+
+
+
+.cover p{
+	padding: 0px 30px 20px;
+	font-family: sans;
+	font-size: 25px;
+	line-height: 44px;
+}
+
+
+
+
+
+/* SIBLING FADE: fade out siblings around a hovered item */
+
+.sibling-fade { visibility: hidden; }
+/* Prevents :hover from triggering in the gaps between items */
+
+.sibling-fade > * { visibility: visible; }
+/* Brings the child items back in, even though the parent is `hidden` */
+
+.sibling-fade > * { transition: opacity 150ms linear 100ms, transform 150ms ease-in-out 100ms; }
+/* Makes the fades smooth with a slight delay to prevent jumps as the mouse moves between items */
+
+.sibling-fade:hover > * { opacity: 0.4; transform: scale(0.9); }
+/* Fade out all items when the parent is hovered */
+
+.sibling-fade > *:hover { opacity: 1; transform: scale(1); transition-delay: 0ms, 0ms; }
+/* Fade in the currently hovered item */
+
+
+
+
+
+
+
+/* Presentational Styles */
+
+
+
+.sibling-fade {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.sibling-fade > a{
+	 color: indigo;
+	 margin: 100px 0 0 205px;
+	 font-family: sans fb;
+	
+}
+.sibling-fade > * {
+  
+  padding: 0.1em 0.5em;
+
+  margin: 10em;
+  text-align: center;
+  color: lavender;
+  font-size: 25px;
+  text-decoration: none;
+  
+}
+
+/**/
+
+
+
+
+
+
+#section2 {
+  height: 45vh;
+  background-color: moccasin;
+}
+#section3 {
+  height: 45vh;
+  background-color: violet;
+}*/
+
+
+	
+
+a { 
+font-weight: bold;
+text-decoration: underline;
+text-transform: uppercase;
+font-family: sans fb;
+color: white;
+}
+li {
+	list-style:  none;
+}
+
+
+/* Styling Nav bar*/
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 4px;
+	background-color: none;
+	color: indigo;
+	min-height: 1vh;
+	border: 1px solid purple;
+	width: 100%;
+	
+}
+/*.fixed-nav-bar {
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	z-index: 9999; 
+	width: 100%; 
+	height: 50px; 
+	background-color: #00a087; 
+}*/
+
+
+.nav-links a {
+	color: indigo;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: sans fb;
+	font-size: 25px;
+}
+/*LOgo */
+
+.logo {
+	color: indigo;
+	font-size: 45px;
+	
+	display: flex;
+	gap: 1.05em;
+	font-weight: bold;
+	font-family: sans fb;
+
+	
+}
+.slogan {
+	position:relative;
+	line-height:1;
+	top:0px;
+	font-size: 1em;
+	font-style: italic;
+	color: white;
+	letter-spacing: 0px;
+	}
+
+/* Navbar menu*/
+
+.menu {
+	display: flex;
+	gap: 1.05em;
+	font-size: 20px;
+	
+}
+a:visited {
+	background-color: silver;
+}
+	
+
+.menu li: hover {
+	background-color: green;
+	border-radius: 5px;
+	transition: 0.3s ease;
+}
+
+.menu li {
+	padding: 5px 14px;
+}
+/* Dropdown menu */
+
+.Services {
+	position: relative;
+}
+
+.dropdown {
+	background-color: cadetblue;
+	padding: 2em 2em;
+	position: absolute;
+	display: none;
+	border-radius: 2px;
+	top: 30px;
+}
+
+.dropdown li + li {
+	margin-top: 10px;
+}
+
+.dropdown li {
+	padding: 0.2em 0.7em;
+	width: 8em;
+	text-align: start;
+}
+
+.dropdown li:hover {
+	background-color: Peachpuff;
+}
+.dropdown a {
+	font-size: 12px;
+text-decoration: none;
+text-transform: uppercase;
+font-family: sans fb;
+color: indigo;
+
+}
+	
+
+.Services:hover .dropdown {
+	display: block;
+}

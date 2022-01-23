@@ -1,0 +1,101 @@
+<html>
+<!doctype html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="css/style.css"
+type="text/css">
+	
+	<!-- Gen info -->
+		<title> Get your next hitsong now!</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="While our competitors focus on bubblegum music, we focus on providing services that 
+		will ensure you produce good melodic music that is both developing and growing"/>
+		<!-- links to the css file "stylesheet" and site icon -->
+		<link href="css/style.css" type="text/css" rel="stylesheet">
+		<link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
+		
+	</head>
+	
+		
+	<body >
+		<header >
+		
+			<nav class="navbar">
+				<div class="logo">Hitsong!</div>
+				<div class="slogan">{slogan:text}</div>
+
+			<!--nav menu-->
+			
+				<ul class="nav-links">
+					<!--checkbox-->
+					<input type="checkbox" id="checkbox_toggle" />
+					<label for="checkbox_toggle" class="hamburger">&#9776;</label>
+					<!--nav menus-->
+					<div class="menu">
+						<li><a href="home.html">Home</a></li>
+						<li><a href="/">About</a></li>
+						<li class="Services">
+							<a href="/">Services</a>
+							<!--Dropdown menu-->
+							<ul class="dropdown">
+								<li><a href="Lyric writing.html">Lyric writing</a></li>
+								<li><a href="/">Song writing</a></li>
+								<li><a href="/">Instrumental beat production</a></li>
+								
+							</ul>
+						</li>
+						<li><a href="/">Pricing</a></li>
+						<li><a href="/">Contact Us</a></li>
+						
+					</div>
+				</ul>
+			</nav> 
+			
+			<h2 style="color: white;"> Need a catchy hook, chorus, beat, or song?? 
+		     </h2>
+			<h2 style="color: white;">  
+		    Then you've come to the right place! </h2>
+		
+	
+		</header>
+		
+<!-- Main container with class content -->
+		
+
+		<div class="main" id="section1">
+			<h2>Lyric writing</h2>
+			<p>Click on the link to get our lyricist to write lyrics with/for you for your next hit.</p>
+			<a href="Lyric writing.html">Click Me </a>
+			<p>Note: Remove the scroll-behavior property to remove smooth scrolling.</p>
+		</div>
+
+		<div class="main" id="section2">
+			<h2>  Song writing </h2>
+			<a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a>
+		</div>	
+		<div class="main" id="section3">
+			<h2>Instrumental beat production</h2>
+			<a href="#section1">Click Me to Smooth Scroll to Section 1 Above</a>
+		</div>
+		
+		<!--section><h2 style="background-color: aqua;"> Lyric writing </h2> </section>
+		<section><h2> Lyric writing </h2> </section>
+		<section><h2> Lyric writing </h2> </section>
+		<footer><h2> footer </h2> </footer>					
+		
+		<!--section>  <h2> Lyric writing </h2>  </section>
+		<section> <div class="content">  <h2 style="background-color: white;"> Song writing </h2>  </div> </section>
+		<section> <header background="C:\Users\acer\Downloads\los4.jpg"> <h2> Instrumental beat production </h2> </header> </section-->
+		
+		<p style="font-size: 20px;"> Our main services are provided by skilled songwriters, lyricists, composers, co-writers, 
+		and instrumental beat makers</p>
+		<p style="font-size: 20px;"> To get a feeling of what what we are cable of, please click <a href="C:\Users\acer\Music\Vj2\Postol Mix_20.12-3.mp3">here <a/> </p>
+		
+		
+		
+	</body>
+	
+	
+</html>
+

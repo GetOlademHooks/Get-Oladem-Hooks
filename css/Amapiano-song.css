@@ -1,0 +1,744 @@
+
+}
+/* Utilities*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+
+.demo-bg {
+  opacity: 0.4;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  min-width: 1024px;
+  
+}
+
+body {
+	
+	
+	background-color: grey;
+	
+	
+	
+	min-height: 100vh;
+	background-size: cover;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	align-items: center;
+	
+}
+
+.cont{ 
+	max-width: 100%;
+	min-height: 100hv;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+	
+	
+}
+article{ 
+	max-width: 100%;
+	min-height: 100hv;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+	border-top:1px solid pink;
+}
+
+
+
+.navbar {
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+	position: relative;
+		 margin-top: -30px
+
+	
+	
+	
+	
+
+
+	
+	
+}
+
+
+
+
+
+
+.logo {
+	width: 165px;
+	cursor: pointer;
+	margin: 5px -100px;
+}
+.icon {
+	width: 25px;
+	cursor: pointer;
+	margin: 50px 0;
+	display: none;
+}
+	
+nav{
+	flex: 5;
+	text-align: right;
+	margin-top: -40px
+
+	
+
+	
+}
+
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+Services {
+	position: relative;
+}
+
+.dropdown {
+	background-color: cadetblue;
+	padding: 1em 1em;
+	position: absolute;
+	display: none;
+	border-radius: 2px;
+	top: 100px;
+	width: 250px;
+}
+
+.dropdown li + li {
+	margin-top: 10px;
+}
+
+.dropdown li {
+	padding: 0.2em 1em;
+	width: 20em;
+	text-align: start;
+}
+
+.dropdown li:hover {
+	background-color: Peachpuff;
+}
+.dropdown a {
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: arial;
+	color: indigo;
+
+}
+	
+
+.Services:hover .dropdown {
+	display: block;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: lavender;
+	padding: 0.5em 9px;
+    border-bottom: 1.5px solid purple;
+	border-width: -90px;
+	font-family: arial;
+}
+
+nav ul li a:hover{
+	color: indigo;
+}
+
+.row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 100px 0px;
+	
+}
+
+.col1{
+	flex-basis: 180%;
+	position: absolute;
+	
+	
+}
+
+.col1 h2{
+	font-size: 55px;
+	color: thistle;
+	font-weight: bold;
+	
+	font-family: arial;
+	
+}
+
+footer p{
+	font-size: 10px;
+	color: indigo;
+	font-weight: bold;
+	background-color: thistle;
+	text-align: center;
+	font-family: arial;
+	
+	
+	
+}
+
+footer{
+	position: relative;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
+.box-wrap{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:10%;
+  position: relative;
+  
+  
+  
+  
+  
+}
+.box a{
+	 font-size: 25px;
+	 color: thistle;
+	 text-decoration: none;
+}
+.box{
+  padding:0px 20px;
+  margin:2%;
+  background:transparent;
+  width:30%;
+  border:1px solid indigo;
+  box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+  border-radius:0px;
+  transition:.2s all; 
+  color: thistle;
+  font-size: 22px;
+  
+   font-family: arial;
+}
+.box-wrap:hover .box{
+  filter:blur(3px);
+  opacity:.5;
+  transform: scale(.98);
+  box-shadow:none;
+}
+.box-wrap:hover .box:hover{
+  transform:scale(1);
+  filter:blur(0px);
+  opacity:1;
+  box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+}
+/**/
+
+
+section{  
+border:1px solid plum;  
+padding:15px;  
+margin:10px;
+font-family: arial;
+color: thistle;
+}
+
+header{  
+ text-decoration: underline;
+ color: purple;
+ font-size: 25px;
+padding:15px;  
+margin: 0px 0 0 420px;
+font-family: arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+#title{
+  text-align: center;
+  color:white;
+  font-size:30px;
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin: 40px 0 0 300px;
+}
+.hover-table-layout {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+	-webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  max-width:800px;
+  margin:0 auto;
+  margin: 100px 0 0 300px;
+   margin-left: 140px;	
+   margin-top: 20px;
+
+
+}
+.listing-item {
+	display: block;
+	text-decoration: none;
+	width:100%;
+	margin-bottom:20px;
+	float: left;
+	background: slategray;
+	border-radius:10px;
+	z-index:0;
+	cursor:pointer;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	-webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+	-moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
+	height: 400px;
+
+	
+
+}
+.listing-item:hover,  .listing-item.active{
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+    transform: scale(1.2);
+		-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+    transition: all 0.3s;
+	z-index:2;
+
+}
+.listing-item .listing{
+    padding:0px;
+    position:relative;	
+	
+	
+}
+
+.listing-item a{
+	text-decoration: none;
+	
+}
+.listing-item .listing:before{
+    content:"";
+	position:absolute;
+	top:-15px;
+	left:-o-calc(50% - 15px);
+	left:-moz-calc(50% - 15px);
+	left:-webkit-calc(50% - 15px);
+	left:calc(50% - 15px);
+	border-bottom:20px solid #fff;
+	border-left:20px solid transparent;
+	border-right:20px solid transparent;
+}
+	figure.image img {
+		width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	
+}
+figure.image {
+    position: relative;
+	margin: 0;
+    padding: 0;
+	
+}
+figure.image figcaption {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    bottom: 4px;
+	background: rgba(0.8,0,0.2,0.6);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+figcaption .caption{
+	position:relative;
+	top:50%;
+	-moz-transform:translateY(-50%);
+	-webkit-transform:translateY(-50%);
+	transform:translateY(-50%);
+
+}
+figcaption h1{
+  	color:white;
+	font-weight:bold;
+  	font-size:16px;
+  text-transform: uppercase;
+  font-family: arial;
+}
+figcaption p{
+  color:white;
+  font-size:12px;
+  font-family: arial;
+}
+.listing h4 {
+   
+    font-size: 13px;
+    text-align: center;
+    padding: 5px 10px;
+    font-weight: none;
+	color:lavender;
+	font-family: arial;
+	align-items: center;
+	text-transform: none;
+	text-decoration: none;
+	 border-bottom: none
+}
+.listing h4:not(:last-child){
+   border-bottom: 5px solid #ccc;
+}
+.listing-item:hover figure.image figcaption{
+       background: rgba(50, 55, 43, 0);
+}
+@media only screen and (min-width:540px){
+	.listing-item {
+   display: block;
+   width: -webkit-calc(100%/3);
+   width: -moz-calc(100%/3);
+    width: calc(100%/3);
+	}
+}
+@media only screen and (min-width:1024px){
+	.hover-table-layout{
+        padding: 30px;
+	}
+}
+
+.top {
+
+	position: absolute;
+	margin: -20px 0 0 330px;
+	
+	
+	}
+	
+	.top h2{
+		font-size: 30px;
+			font-family: arial;
+	}
+		
+	
+	.house {
+
+		position: relative;
+		
+	
+		color:lavender;
+	
+	}
+	
+	.house h2{
+		font-size: 20px;
+		font-family: arial;
+		margin: -20px 0 0 -80px;
+		
+	}
+
+
+@media only screen and (max-width: 1024px) {
+	
+	.top {
+
+	position: absolute;
+	margin: 150px 0 0 130px;
+	
+	}
+	
+	.top h2{
+		font-size: 40px;
+			font-family: arial;
+	}
+		
+	
+	.house {
+
+		position: absolute;
+		
+	
+		color:lavender;
+	
+	}
+	
+	.house h2{
+		font-size: 45px;
+		font-family: arial;
+		margin: -20px 0 0 190px;
+		
+	}
+		
+	
+		figure.image img {
+		width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+		height: 220px;}
+	
+	
+		.listing-item {
+		   display: block;
+		   width: -webkit-calc(100%/3);
+		   width: -moz-calc(100%/3);
+			width: calc(100%/3);
+			height: 800px;
+			position: relative;
+			margin-top: 220px;
+			margin-left: 0px;
+		}
+		
+		.listing h4 {
+   
+			font-size: 26px;
+			font-family: arial;
+		}
+	
+
+	figcaption h1{
+	color:white;
+	font-weight:bold;
+	font-family: arial;
+	font-size:38px;
+	text-transform: uppercase;
+	}
+	figcaption p{
+	color:white;
+	font-size:30px;
+	font-family: arial;
+	}
+	
+		.hover-table-layout{
+        padding: 30px;
+		margin: 0px;
+		
+	}
+	nav ul {
+		width: 50%;
+		background: linear-gradient(black, grey);
+		position: absolute;
+		top: 135px;
+		right: 0;
+		z-index: 2;
+		
+	}
+	
+	nav ul li{
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		position: relative;
+	}
+	
+	nav ul li a{
+		color: lavender;
+		font-size: 26px;
+		border-bottom: none;
+		font-family: arial;
+		font-weight: bold;
+	}
+	
+	.icon {
+		display: block;
+		width: 65px;
+	
+		
+	}
+	
+	#menu{
+		overflow: hidden;
+		transition: 0.7s;
+	}
+	 .row {
+		 flex-direction: column-reverse;
+		 margin-bottom: -100px;
+		 margin-top: 50px;
+		 margin-left: -100px;
+		 margin-right: -80px;
+		 
+		 
+		 
+	 }
+	 
+	 .box-wrap{
+		 flex-basis: 100%;
+		 margin-top: 150px;
+		 color: red;
+		 
+		 
+	 }
+	 .box{
+		 font-size: 15px;
+		 font-family: arial;
+		 font-weight: bold;
+		 color: thistle;
+	 }
+	 .box a{
+		 font-size: 12px;
+		 color: thistle;
+		 text-decoration: none;
+		 font-family: arial;
+	 }
+		 
+	 
+	 .col1{ 
+		flex-basis: 80%;
+	 }
+	 
+	 .col1 h2{
+		font-size: 15px;
+		
+		color: thistle;
+		
+		
+		
+		font-family: arial;
+		
+	 }
+	 .col1 h3{
+		font-size: 15px;
+		
+		color: thistle;
+		
+		
+		font-family: arial;
+		
+	 }
+	 .col1 h4{
+		font-size: 15px;
+		
+		color: thistle;
+		
+		
+		font-family: arial;
+		
+	 }
+	 
+
+	.dropdown li + li {
+	margin-top: 10px;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+	.dropdown li {
+	padding: 0.2em 0.7em;
+	width: 8em;
+	text-align: start;
+	}
+	
+	.logo {
+	width: 240px;
+	cursor: pointer;
+	margin: 0px -45px;
+	
+	
+}
+	section{  
+		border:1px solid plum;  
+		padding:15px;  
+		margin:10px;
+		
+	}
+	section h2{  
+		font-size: 17px;
+		
+	}
+	
+	section p{  
+		font-size: 13px;
+		font-weight: none;
+		
+	}
+
+	header{  
+		text-decoration: underline;
+		color: thistle;
+		font-size: 15px;
+		padding:15px; 
+		margin: 0px 0 0 60px;
+		
+	}
+	
+	footer p{
+	font-size: 20px;
+	color: indigo;
+	font-weight: bold;
+	background-color: lavender;
+	text-align: center;
+	font-family: arial;
+	margin: 380px 50px;
+	font-family: arial;
+	
+	}
+
+	footer {
+	
+	
+	
+	
+	
+	}
+	
+	  .navbar {
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-top: -15px;
+  }
+	
+
+
+	
+  img.demo-bg {
+    left: 50%;
+	
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+

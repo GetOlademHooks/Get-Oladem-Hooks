@@ -1,0 +1,104 @@
+<html lang="en">
+	<head>
+		<meta charset= "utf-8">
+		<title> Home </title>
+		<link rel="stylesheet" href="css/song.css"
+type="text/css">
+	
+	<!-- Gen info -->
+		<!--title> Get your next hitsong now!</title-->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="While our competitors focus on bubblegum music, we focus on providing services that 
+		will ensure you produce good melodic music that is both developing and growing"/>
+		<!-- links to the css file "stylesheet" and site icon -->
+		<link href="css/song.css" type="text/css" rel="stylesheet">
+		<link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
+	</head>
+	<body > 
+		
+			<div class = "cont" > 
+			
+			<img src = "css/lyrics.jpg" class = "demo-bg" alt = "">
+			
+			<div class="navbar">
+				<img src = "css/1logo.png" class = "logo" >
+				
+				<nav  class = "separator"> 
+					<ul id= "menu">
+					
+						<li><a href="index.html">Home</a></li>
+						<li><a href="/">About</a></li>
+						<li class="Services">
+							<a href="Services.html">Services</a>
+							
+							<ul class="dropdown">
+								<li><a href="Lyric writing.html">Lyricist</a></li>
+								<li><a href="Songwriter.html">Songwriter</a></li>
+								<li><a href="beat.html">Instrumental beat producer</a></li>
+								
+							</ul>
+						</li>
+						
+						<li><a href="contactus.html">Contact Us</a></li>
+							
+						
+					</ul>
+				</nav>
+				<img src = "css/nav.jpg" class = "icon" onclick = "togmenu()">
+			</div>
+			
+			
+			
+			
+			<div class= "row">
+				<div class= "col2">
+					<h2 >  -Songwriter </h2>
+				</div>
+				
+				<div class= "col1">
+					<h2 > Please select a genre below</h2>
+				</div>
+		
+			</div>	
+
+			
+			
+			<div id="menu-outer">
+				<div class="table">
+					
+						<a href="House song.html">House</a>
+						<a href="Afropop-song.html">Afropop</a>
+						<a href="Amapiano-song.html">Amapiano</a>
+						<a href="Other-song.html">Other</a>
+					
+				</div>
+			</div>
+			<section>
+			<footer>
+				
+				<p> &copy 2022 Get Oladen Hits. All rights reserved.</p>
+
+
+			</footer>
+			</section>
+	
+	</body>
+	
+	<script>
+			var menu=document.getElementById("menu");
+			menu.style.maxHeight = "0px";
+			function togmenu(){
+				if(menu.style.maxHeight == "0px")
+					{
+						menu.style.maxHeight = "170px";
+					}
+				else
+					{
+						menu.style.maxHeight = "0px"
+					}
+			}
+		
+	</script>
+	
+</html>

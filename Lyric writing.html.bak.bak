@@ -1,0 +1,69 @@
+<html lang="en">
+	<head>
+		<meta charset= "utf-8">
+		<title> Home </title>
+		<link rel="stylesheet" href="css/lyric.css"
+type="text/css">
+	
+	<!-- Gen info -->
+		<!--title> Get your next hitsong now!</title-->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="description" content="While our competitors focus on bubblegum music, we focus on providing services that 
+		will ensure you produce good melodic music that is both developing and growing"/>
+		<!-- links to the css file "stylesheet" and site icon -->
+		<link href="css/lyric.css" type="text/css" rel="stylesheet">
+		<link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
+	</head>
+	<body background="C:\Users\acer\Downloads\los4.jpg"> 
+		<nav class="navbar">
+			<div class="logo">Hitsong!</div>
+			<div class="slogan">{slogan:text}</div>
+
+		<!--nav menu-->
+		
+			<ul class="nav-links">
+				<!--checkbox-->
+				<input type="checkbox" id="checkbox_toggle" />
+				<label for="checkbox_toggle" class="hamburger">&#9776;</label>
+				<!--nav menus-->
+				<div class="menu">
+					<li><a href="web3.html">Home</a></li>
+					<li><a href="/">About</a></li>
+					<li class="Services">
+						<a href="/">Services</a>
+						<!--Dropdown menu-->
+						<ul class="dropdown">
+							<li><a href="Lyric writing.html">Lyric writing</a></li>
+							<li><a href="/">Song writing</a></li>
+							<li><a href="/">Instrumental beat production</a></li>
+							
+						</ul>
+					</li>
+					<li><a href="/">Pricing</a></li>
+					<li><a href="/">Contact Us</a></li>
+					
+				</div>
+			</ul>
+		</nav> 
+		
+
+		
+		<h1 style="color: white;"> Lyric Writing</h1>
+		<h2 style="font-size: 40px;"> Please select a genre below </h2>
+		<div id="menu-outer">
+			<div class="table">
+				<ul id="horizontal-list">
+					<li style="padding-left:5em"><a href="house.html">House</a></li>
+					<li style="padding-left:5em"><a href="#">Afropop</a></li>
+					<li style="padding-left:5em"><a href="#">Amapiano</a></li>
+					<li style="padding-left:5em"><a href="#">Other</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<p style="font-size: 20px;"> To get a feeling of what what we are cable of, please click <!--!a href="https://www.hostinger.com/tutorials/best-html-editors">here --> 
+		
+	
+	</body>
+</html>
