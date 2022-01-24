@@ -38,7 +38,7 @@ body {
 	background-attachment: fixed;
 
 	
-	min-height: 100%;
+	min-height: 100vh;
 	background-size: 100% 100%;
 	margin: 0;
 	background-repeat: no-repeat;
@@ -115,7 +115,7 @@ body {
 
 #menu-outer {
 	height: 84px;
-	background: url(images/bar-bg.jpg) repeat-x;
+	background: linear-gradient(red ,  aqua);
 	color: indigo;
 	margin: 30px 0 0 260px;
 	font-size: 17px;
@@ -287,7 +287,7 @@ nav ul li a:hover{
 	font-weight: bold;
 	line-height:  20%;
 	font-family: arial;
-	margin: 80px 185px;
+	margin: 80px 195px;
 	
 }
 
@@ -314,7 +314,8 @@ article{
 	padding-right: 8%;
 	box-sizing: border-box;
 	overflow: hidden;
-
+	background: linear-gradient(navy ,  aqua);
+	margin:350px 0px;
 	
 
 }
@@ -357,10 +358,10 @@ footer p{
 	font-size: 10px;
 	color: indigo;
 	font-weight: bold;
-	background-color: thistle;
+	background-color: red;
 	text-align: center;
 	font-family: arial;
-	margin: -100px -80px;
+	margin: -180px -80px;
 	
 	
 }
