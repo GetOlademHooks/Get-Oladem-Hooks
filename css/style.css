@@ -18,6 +18,11 @@
   height: auto;
   min-height: 100%;
   min-width: 1024px;
+  background-size: cover;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	align-items: center;
   
 }
 

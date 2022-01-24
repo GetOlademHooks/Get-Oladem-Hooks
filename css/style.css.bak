@@ -332,7 +332,7 @@ font-family: arial;
 	
 	nav ul li a{
 		color: thistle;
-		font-size: 10px;
+		font-size: 12px;
 		border-bottom: none;
 		font-family: arial;
 		font-weight: bold;
