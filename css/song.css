@@ -117,9 +117,10 @@ body {
 	height: 84px;
 	background: url(images/bar-bg.jpg) repeat-x;
 	color: indigo;
-	margin: 170px 0 0 0px;
+	margin: 30px 0 0 260px;
 	font-size: 17px;
-	position: relative;
+	position: absolute;
+	border-bottom:1.5px solid navy;
 	
 	
 	
@@ -127,7 +128,7 @@ body {
 
 .table {
 	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
+	margin: -85px auto;
 	
 	
 	
@@ -270,12 +271,13 @@ nav ul li a:hover{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 100px 0px;
+	margin: 80px 0px;
 }
 
 .col1{
 	flex-basis: 180%;
-	position: absolute;
+	position: relative;
+	
 	
 }
 
@@ -283,8 +285,9 @@ nav ul li a:hover{
 	font-size: 55px;
 	color: darkslateblue;
 	font-weight: bold;
-	margin-top: 100px;
+	line-height:  20%;
 	font-family: arial;
+	margin: 80px 195px;
 	
 }
 
@@ -298,10 +301,57 @@ nav ul li a:hover{
 	font-size: 55px;
 	color: darkslateblue;
 	font-weight: bold;
-	margin-top: -100px;
+	margin-top: -110px;
 	font-family: arial;
 	
 }
+
+
+article{ 
+	max-width: 100%;
+	min-height: 100hv;
+	padding-left: 8%;
+	padding-right: 8%;
+	box-sizing: border-box;
+	overflow: hidden;
+
+	
+
+}
+
+
+section{  
+border:1px solid blue;  
+padding:15px;  
+margin:40px;
+font-family: arial;
+color: thistle;
+width: 100%;
+}
+
+section h2{  
+color: indigo;
+font-size: 25px;
+
+}
+
+
+section a{  
+
+color: navy;
+}
+
+
+header{  
+
+ text-decoration: underline;
+ color: indigo;
+ font-size: 25px;
+padding:15px;  
+margin: 120px 0 0 350px;
+font-family: arial;
+}
+
 
 footer p{
 	font-size: 10px;
@@ -310,16 +360,7 @@ footer p{
 	background-color: thistle;
 	text-align: center;
 	font-family: arial;
-	
-	margin-bottom: 650px;
-	
-	
-}
-
-footer {
-	
-	
-	margin-bottom: 250px;
+	margin: -100px -80px;
 	
 	
 }
@@ -365,30 +406,52 @@ footer {
 		width: 65px;
 	}
 	
+	section h2{  
+		color: indigo;
+		font-size: 35px;
+
+	}
+
+
+	section a{  
+
+		color: navy;
+		font-size: 28px;
+	}
+	
+	header{  
+
+		  
+		margin-left:210px;
+		
+	}
+
 	#menu{
 		overflow: hidden;
 		transition: 0.7s;
 	}
 	 .row {
 		 flex-direction: column-reverse;
-		 margin: 50px 0;
+		 margin: 200px 0;
+		
 	 }
 	 
 	 .menu-outer{
 		 flex-basis: 100%;
-		 margin-top: 250px;
+		 
 		 
 		 
 	 }
 	 .table{
 		 font-size: 20px;
 		 font-family: arial;
-		  margin-top: 350px;
+		  margin: -150px -200px;
 	 }
 		 
 	 
 	 .col1{ 
 		flex-basis: 80%;
+		 position: relative;
 	 }
 	 
 	 .col1 h2{
@@ -396,19 +459,21 @@ footer {
 		
 		color: indigo;
 		font-weight: bold;
-		margin-top: 400px;
+		margin: 0px 45px;
 		font-family: arial;
 	 }
 	 
 	 .col2{ 
 		flex-basis: 80%;
+		 position: absolute;
+		
 	 }
 	 .col2 h2{
 		font-size: 45px;
 		
 		color: indigo;
 		font-weight: bold;
-		margin-top: 150px;
+		margin: -180px 45px;
 		font-family: arial;
 	 }
 	 
@@ -458,11 +523,6 @@ footer {
 	
 	}
 	
-	footer {
-	
-	
-	margin-bottom: 1050px;
-	}
 	
 	
 		

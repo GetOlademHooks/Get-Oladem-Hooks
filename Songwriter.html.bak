@@ -15,8 +15,7 @@
 		<meta name="description" content="While our competitors focus on bubblegum music, we focus on providing services that 
 		will ensure you produce good melodic music that is both developing and growing"/>
 		<!-- links to the css file "stylesheet" and site icon -->
-		<link href="css/song.css" type="text/css" rel="stylesheet">
-		<link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
+
 	</head>
 	<body > 
 		
@@ -56,11 +55,11 @@
 			
 			<div class= "row">
 				<div class= "col2">
-					<h2 >  -Songwriter </h2>
+					<h2 >  Please select a genre below </h2>
 				</div>
 				
 				<div class= "col1">
-					<h2 > Please select a genre below</h2>
+					<h2 > -Songwriter</h2>
 				</div>
 		
 			</div>	
@@ -77,14 +76,30 @@
 					
 				</div>
 			</div>
-			<section>
-			<footer>
-				
-				<p> &copy 2022 Get Oladen Hits. All rights reserved.</p>
+			<article>
+			
+					<header >
+						<h2  >Produced songs</h2>
+					
+					</header>
+
+				<section>
+					<h2 >Checkout sample songs we've produced:</h2>
+
+						<li> <a href="/">Track 1  <a/></li>
+						<li> <a href="/">Track 2<a/></li>
+						<li> <a href="/">Track 3<a/></li>
+					
+					
+				</section>
+
+				<footer>
+					
+					<p> &copy 2022 Get Oladen Hits. All rights reserved</p>
 
 
-			</footer>
-			</section>
+				</footer>
+			</article>
 	
 	</body>
 	
