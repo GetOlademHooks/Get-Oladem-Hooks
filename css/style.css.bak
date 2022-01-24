@@ -18,6 +18,11 @@
   height: auto;
   min-height: 100%;
   min-width: 1024px;
+  background-size: cover;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	align-items: center;
   
 }
 
@@ -484,9 +489,18 @@ font-family: arial;
 
 	
   img.demo-bg {
-    left: 50%;
-	
-    margin-left: -512px;   /* 50% */
+      position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  min-width: 1024px;
+  background-size: cover;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	align-items: center;
   }
   .navbar {
 	max-width: 100%;

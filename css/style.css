@@ -492,6 +492,11 @@ font-family: arial;
     left: 50%;
 	
     margin-left: -512px;   /* 50% */
+	background-size: cover;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-position: center center;
+	align-items: center;
   }
   .navbar {
 	max-width: 100%;
