@@ -34,15 +34,17 @@ h2{
 body {
 	
 	
-	background-color: grey;
+	background: linear-gradient(red ,  aqua);
+
+	background-attachment: fixed;
+
 	
-	
-	
-	min-height: 100vh;
-	background-size: cover;
+	min-height: 100%;
+	background-size: 100% 100%;
 	margin: 0;
 	background-repeat: no-repeat;
 	background-position: center center;
+	align-items: center;
 	
 }
 
@@ -309,16 +311,17 @@ footer p{
 	background-color: thistle;
 	text-align: center;
 	font-family: arial;
+	align-items: center;
 	
-	margin-bottom: 650px;
-	
+
 	
 }
 
-footer {
+.foot {
 	
 	
-	margin-bottom: 250px;
+
+	
 	
 	
 }

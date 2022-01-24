@@ -506,7 +506,7 @@ figcaption p{
 	.house h2{
 		font-size: 45px;
 		font-family: arial;
-		margin: -20px 0 0 240px;
+		margin: -20px 0 0 210px;
 		
 	}
 		

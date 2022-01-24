@@ -30,7 +30,6 @@ h2{
   
 }
 
-
 body {
 	
 	
@@ -92,19 +91,19 @@ body {
   
 }
 .table > a{
-	 color: indigo;
+	 color: slateblue;
 	 margin: 80px 0 0 0px;
 	
 }
 .table > * {
  
-  border:4px solid navy;
-  opacity: 0.7;
+  border:4px solid plum;
+  opacity: 1;
   padding: 1em;
   flex: auto;
   margin: 0.3em;
   text-align: center;
-  color: black;
+  color: indigo;
   font-size: 1.5em;
   text-decoration: none;
   font-weight: bold;
@@ -117,7 +116,7 @@ body {
 #menu-outer {
 	height: 84px;
 	background: url(images/bar-bg.jpg) repeat-x;
-	color: thistle;
+	color: indigo;
 	margin: 170px 0 0 0px;
 	font-size: 17px;
 	position: relative;
@@ -209,7 +208,8 @@ Services {
 }
 
 .dropdown {
-		border:1px solid aqua;  
+		border:1px solid plum;  
+		
 		
 
 	padding: 1em 1em;
@@ -253,7 +253,7 @@ nav ul li a{
 	font-weight: bold;
 	color: indigo;
 	padding: 0.5em 9px;
-    border-bottom: 1.5px solid aqua;
+    border-bottom: 1.5px solid thistle;
 	border-width: -90px;
 	font-family: arial;
 	
@@ -261,7 +261,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	color: indigo;
+	color: lavender;
 }
 
 
@@ -334,7 +334,7 @@ footer {
 @media only screen and (max-width: 1024px) {
 	nav ul {
 		width: 50%;
-		background: linear-gradient(red, orange);
+		background: linear-gradient(grey, lavender);
 		position: absolute;
 		top: 160px;
 		right: 0;

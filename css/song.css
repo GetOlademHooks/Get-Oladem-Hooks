@@ -30,22 +30,22 @@ h2{
   
 }
 
-
 body {
 	
 	
-	background-color: grey;
+	background: linear-gradient(yellow ,  aqua);
+
+	background-attachment: fixed;
+
 	
-	
-	
-	min-height: 100vh;
-	background-size: cover;
+	min-height: 100%;
+	background-size: 100% 100%;
 	margin: 0;
 	background-repeat: no-repeat;
 	background-position: center center;
+	align-items: center;
 	
 }
-
 
 .cont{ 
 	max-width: 100%;
@@ -96,14 +96,14 @@ body {
 	
 }
 .table > * {
-  background: linear-gradient(lightcyan, thistle);
+ 
   border:4px solid plum;
-  opacity: 0.7;
+  opacity: 1;
   padding: 1em;
   flex: auto;
   margin: 0.3em;
   text-align: center;
-  color: black;
+  color: indigo;
   font-size: 1.5em;
   text-decoration: none;
   font-weight: bold;
@@ -116,7 +116,7 @@ body {
 #menu-outer {
 	height: 84px;
 	background: url(images/bar-bg.jpg) repeat-x;
-	color: thistle;
+	color: indigo;
 	margin: 170px 0 0 0px;
 	font-size: 17px;
 	position: relative;
@@ -209,7 +209,8 @@ Services {
 
 .dropdown {
 		border:1px solid plum;  
-		background: linear-gradient(thistle, darkslateblue);
+		
+		
 
 	padding: 1em 1em;
 	position: absolute;
@@ -260,7 +261,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	color: indigo;
+	color: lavender;
 }
 
 
@@ -333,7 +334,7 @@ footer {
 @media only screen and (max-width: 1024px) {
 	nav ul {
 		width: 50%;
-		background: linear-gradient(grey, lavender);
+		background: linear-gradient(grey, red);
 		position: absolute;
 		top: 160px;
 		right: 0;
@@ -393,7 +394,7 @@ footer {
 	 .col1 h2{
 		font-size: 45px;
 		
-		color: lavender;
+		color: indigo;
 		font-weight: bold;
 		margin-top: 400px;
 		font-family: arial;
@@ -405,7 +406,7 @@ footer {
 	 .col2 h2{
 		font-size: 45px;
 		
-		color: lavender;
+		color: indigo;
 		font-weight: bold;
 		margin-top: 150px;
 		font-family: arial;

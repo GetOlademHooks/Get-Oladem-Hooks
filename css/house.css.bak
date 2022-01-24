@@ -24,7 +24,7 @@
 body {
 	
 	
-	background-color: grey;
+	background: linear-gradient(aqua ,  navy);
 	
 	
 	
@@ -324,7 +324,7 @@ font-family: arial;
 	width:100%;
 	margin-bottom:20px;
 	float: left;
-	background: slategray;
+	background: deepskyblue;
 	border-radius:10px;
 	z-index:0;
 	cursor:pointer;
@@ -376,6 +376,8 @@ font-family: arial;
 		width:100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+	background: linear-gradient(aqua ,  indigo);
+	opacity: 0.4;
 	
 }
 figure.image {
@@ -581,7 +583,7 @@ figcaption p{
 	
 	.icon {
 		display: block;
-		width: 60px;
+		width: 65px;
 	
 		
 	}

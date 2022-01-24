@@ -24,7 +24,7 @@
 body {
 	
 	
-	background: linear-gradient(plum, black, indigo);
+	background: linear-gradient(aqua ,  indigo);
 	
 	
 	
@@ -112,9 +112,10 @@ nav ul li{
 Services {
 	position: relative;
 }
-
 .dropdown {
+	background-color: linear-gradient(black, plum);
 	border:1px solid plum;  
+
 	padding: 1em 1em;
 	position: absolute;
 	display: none;
@@ -128,13 +129,13 @@ Services {
 }
 
 .dropdown li {
-	padding: 0.2em 1em;
-	width: 20em;
+	padding: 0.2em 0.8em;
+	width: 15em;
 	text-align: start;
 }
 
 .dropdown li:hover {
-	background-color: Peachpuff;
+	background-color: plum;
 }
 .dropdown a {
 	font-size: 12px;
@@ -154,7 +155,7 @@ nav ul li a{
 	text-decoration: none;
 	font-size: 20px;
 	font-weight: bold;
-	color: thistle;
+	color: indigo;
 	padding: 0.5em 9px;
     border-bottom: 1.5px solid indigo;
 	border-width: -90px;
@@ -162,7 +163,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	color: aqua;
+	color: purple;
 }
 
 .row{
@@ -182,7 +183,7 @@ nav ul li a:hover{
 
 .col1 h2{
 font-size: 35px;
-color: thistle;
+color: navy;
 font-weight: bold;
 
 font-family: arial;
@@ -194,7 +195,7 @@ font-family: arial;
 
 .col1 h3{
 font-size: 35px;
-color: thistle;
+color: navy;
 font-weight: bold;
 
 font-family: arial;
@@ -203,7 +204,7 @@ font-family: arial;
 }
 .col1 h4{
 font-size: 35px;
-color: thistle;
+color: navy;
 font-weight: bold;
 
 font-family: arial;

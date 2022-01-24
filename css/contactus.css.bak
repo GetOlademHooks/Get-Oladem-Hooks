@@ -24,11 +24,11 @@
 body {
 	
 	
-	background-color: black;
+	background: linear-gradient(indigo , thistle);
 	
 	
 	
-	min-height: 100%;
+	min-height: 75vh;
 	background-size: cover;
 	margin: 0;
 	background-repeat: no-repeat;
@@ -144,7 +144,7 @@ Services {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: arial;
-	color: indigo;
+	color: thistle;
 
 }	
 
@@ -184,7 +184,7 @@ nav ul li a:hover{
 
 .col1 h2{
 	font-size: 55px;
-	color: thistle;
+	color: indigo;
 	font-weight: bold;
 	
 	font-family: arial;
@@ -201,6 +201,14 @@ footer p{
 	text-align: center;
 	font-family: arial;
 	margin-bottom: 0px;
+	
+	
+}
+
+footer {
+	
+	margin: 750px 0px;
+	
 	
 	
 }
@@ -277,9 +285,9 @@ font-family: arial;
 
 .container{
   width: 65%;
-margin-top: -190px;
+margin-top: -50px;
 margin-left: 150px;
- color: plum;
+ color: purple;
   border-radius: 2px;
   padding: 50px 60px 30px 40px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
@@ -300,7 +308,7 @@ margin-left: 150px;
   align-items: center;
   justify-content: center;
   margin-top: 15px;
-  position: relative;
+  position: absolute;
 }
 .content .left-side::before{
   content: '';
@@ -329,7 +337,7 @@ margin-left: 150px;
 .content .left-side .details .text-one,
 .content .left-side .details .text-two{
   font-size: 15px;
-  color: thistle;
+  color: lavender;
 }
 
 
@@ -455,7 +463,8 @@ margin-left: 150px;
 		font-size: 17px;
 		text-decoration: underline;
 		margin-left: -5px;
-		color: thistle;
+		color: indigo;
+		margin-top: -10px;
 		
 		
 		
@@ -536,7 +545,7 @@ margin-left: 150px;
 	background-color: thistle;
 	text-align: center;
 	font-family: arial;
-		margin-top: -250px;
+		margin-top: 140px;
 
 	font-family: arial;
 	
@@ -552,8 +561,13 @@ margin-left: 150px;
   }
 
 	
+	.container{
 
-	
+ color: plum;
+  
+}
+
+
 
 
 	

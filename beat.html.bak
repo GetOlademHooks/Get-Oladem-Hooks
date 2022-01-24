@@ -1,9 +1,11 @@
-<html lang="en">
-	<head>
-		<meta charset= "utf-8">
-		<title> Home </title>
-		<link rel="stylesheet" href="css/song.css"
-type="text/css">
+<!DOCTYPE html>
+<html>
+		<html lang="en">
+		<head>
+			<meta charset= "utf-8">
+			<title> Home </title>
+			<link rel="stylesheet" href="css/beat.css"
+		type="text/css">
 	
 	<!-- Gen info -->
 		<!--title> Get your next hitsong now!</title-->
@@ -12,14 +14,13 @@ type="text/css">
 		<meta name="description" content="While our competitors focus on bubblegum music, we focus on providing services that 
 		will ensure you produce good melodic music that is both developing and growing"/>
 		<!-- links to the css file "stylesheet" and site icon -->
-		<link href="css/song.css" type="text/css" rel="stylesheet">
-		<link href="favicon.ico" type="image/x-icon" rel="shortcut icon">
+		
 	</head>
 	<body > 
 		
 			<div class = "cont" > 
 			
-			<img src = "css/lyrics.jpg" class = "demo-bg" alt = "">
+			
 			
 			<div class="navbar">
 				<img src = "css/1logo.png" class = "logo" >
@@ -68,20 +69,22 @@ type="text/css">
 				<div class="table">
 					
 						<a href="house beat.html">House</a>
-						<a href="Afropop beat.css">Afropop</a>
+						<a href="Afropop beat.html">Afropop</a>
 						<a href="Amapiano beat.html">Amapiano</a>
 						<a href="Other beat.html">Other</a>
 					
 				</div>
-			</div>
-			<section>
-			<footer>
 				
-				<p> &copy 2022 Get Oladen Hits. All rights reserved.</p>
+				<div class="foot">
+						<footer>
+				
+				<p > &copy 2022 Get Oladen Hits. All rights reserved.</p>
 
 
 			</footer>
-			</section>
+			</div>
+			</div>
+
 	
 	</body>
 	

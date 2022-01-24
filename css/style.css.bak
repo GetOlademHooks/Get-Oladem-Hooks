@@ -29,12 +29,13 @@
 body {
 	
 	
-	background: linear-gradient(purple, indigo, black);
+	background: linear-gradient(aqua ,  indigo);
+
+	background-attachment: fixed;
+
 	
-	
-	
-	min-height: 100vh;
-	background-size: cover;
+	min-height: 100%;
+	background-size: 100% 100%;
 	margin: 0;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -112,8 +113,8 @@ Services {
 }
 
 .dropdown {
-	background-color: linear-gradient(black, plum);
-	border:1px solid plum;  
+	background-color: linear-gradient(aqua, plum);
+	border:1px solid aqua;  
 
 	padding: 1em 1em;
 	position: absolute;
@@ -134,7 +135,7 @@ Services {
 }
 
 .dropdown li:hover {
-	background-color: plum;
+	background-color: purple;
 }
 .dropdown a {
 	font-size: 12px;
@@ -154,15 +155,15 @@ nav ul li a{
 	text-decoration: none;
 	font-size: 20px;
 	font-weight: bold;
-	color: thistle;
+	color: indigo;
 	padding: 0.5em 9px;
-    border-bottom: 1.5px solid purple;
+    border-bottom: 1.5px solid aqua;
 	border-width: -90px;
 	font-family: arial;
 }
 
 nav ul li a:hover{
-	color: indigo;
+	color: plum;
 }
 
 .row{
@@ -182,7 +183,7 @@ nav ul li a:hover{
 
 .col1 h2{
 font-size: 35px;
-color: thistle;
+color: indigo;
 font-weight: bold;
 
 font-family: arial;
@@ -194,7 +195,7 @@ font-family: arial;
 
 .col1 h3{
 font-size: 35px;
-color: thistle;
+color: indigo;
 font-weight: bold;
 
 font-family: arial;
@@ -203,7 +204,7 @@ font-family: arial;
 }
 .col1 h4{
 font-size: 35px;
-color: thistle;
+color: indigo;
 font-weight: bold;
 
 font-family: arial;
@@ -250,7 +251,7 @@ footer p{
   margin:2%;
   background:transparent;
   width:30%;
-  border:1px solid indigo;
+  border:2px solid aqua;
   box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
   border-radius:0px;
   transition:.2s all; 
@@ -275,7 +276,7 @@ footer p{
 
 
 section{  
-border:1px solid plum;  
+border:1px solid aqua;  
 padding:15px;  
 margin:10px;
 font-family: arial;
@@ -283,26 +284,26 @@ color: thistle;
 }
 
 section h2{  
-color: thistle;
+color: indigo;
 
 }
 
 section p{  
-color: thistle;
-font-size: 20px;
+color: navy;
+font-size: 17px;
 }
 
 
 section a{  
 
-color: lavender;
+color: aquamarine;
 }
 header{  
  text-decoration: underline;
- color: purple;
+ color: indigo;
  font-size: 25px;
 padding:15px;  
-margin: 0px 0 0 420px;
+margin: 0px 0 0 400px;
 font-family: arial;
 }
 
@@ -375,11 +376,11 @@ font-family: arial;
 		 font-size: 15px;
 		 font-family: arial;
 		 font-weight: bold;
-		 color: thistle;
+		 color: indigo;
 	 }
 	 .box a{
 		 font-size: 12px;
-		 color: thistle;
+		 color: indigo;
 		 text-decoration: none;
 		 font-family: arial;
 	 }
@@ -392,7 +393,7 @@ font-family: arial;
 	 .col1 h2{
 		font-size: 15px;
 		
-		color: thistle;
+		color: indigo;
 			
 
 		
@@ -403,7 +404,7 @@ font-family: arial;
 	 .col1 h3{
 		font-size: 15px;
 		
-		color: thistle;
+		color: indigo;
 	
 
 		
@@ -413,7 +414,7 @@ font-family: arial;
 	 .col1 h4{
 		font-size: 15px;
 		
-		color: thistle;
+		color: indigo;
 		
 
 		
@@ -444,25 +445,28 @@ font-family: arial;
 	
 }
 	section{  
-		border:1px solid plum;  
+		border:1px solid aqua;  
 		padding:15px;  
 		margin:10px;
+		
 		
 	}
 	section h2{  
 		font-size: 17px;
+		
 		
 	}
 	
 	section p{  
 		font-size: 13px;
 		font-weight: none;
+		color:darkkhaki;
 		
 	}
 
 	header{  
 		text-decoration: underline;
-		color: thistle;
+		color: indigo;
 		font-size: 15px;
 		padding:15px; 
 		margin: 0px 0 0 60px;
@@ -489,14 +493,10 @@ font-family: arial;
 
 	
   img.demo-bg {
-      position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
-  min-height: 100%;
-  min-width: 1024px;
-  background-size: cover;
+    left: 50%;
+	
+    margin-left: -512px;   /* 50% */
+	background-size: cover;
 	margin: 0;
 	background-repeat: no-repeat;
 	background-position: center center;
