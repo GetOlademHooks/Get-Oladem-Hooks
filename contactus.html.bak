@@ -24,7 +24,7 @@
 		
 		<div class = "cont" > 
 			
-			<img src = "css/los3.jpg" class = "demo-bg" alt = "">
+			
 			
 			<div class="navbar">
 				<img src = "css/1logo.png" class = "logo" >
@@ -90,13 +90,15 @@
 			
 	  </div>
 		
-		<footer>
-				
-				<p> &copy 2022 Get Oladen Hits. All rights reserved</p>
+		<div class="footer">
+			<footer>
+			
+			<p> &copy 2022 Get Oladen Hits. All rights reserved.</p>
 
 
-		</footer>
-		
+			</footer>
+		</div>
+	
 		
 	</body>
 	<script>

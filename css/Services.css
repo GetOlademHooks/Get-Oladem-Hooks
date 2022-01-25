@@ -212,17 +212,16 @@ font-family: arial;
 }
 
 
-footer p{
-	font-size: 10px;
-	color: indigo;
-	font-weight: bold;
-	background-color: thistle;
-	text-align: center;
-	font-family: arial;
-	
-	
+.footer {
+position: fixed;
+left: 10px;
+bottom: 5px;
+right: 10px; 
+width: 95%;
+background-color: transparent;
+color: white;
+text-align: center;
 }
-
 
 
 
@@ -454,16 +453,8 @@ font-family: arial;
 	
 	
 }
-	footer p{
-	font-size: 8.5px;
-	color: indigo;
-	font-weight: bold;
-	background-color: thistle;
-	text-align: center;
-	font-family: arial;
-	margin-top: 375px;
-	font-family: arial;
-	
+	.footer {
+	font-size: 10px;
 	}
 
 		

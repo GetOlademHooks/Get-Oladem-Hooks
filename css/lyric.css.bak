@@ -334,7 +334,7 @@ footer {
 @media only screen and (max-width: 1024px) {
 	nav ul {
 		width: 50%;
-		background: linear-gradient(green, orange);
+		background: linear-gradient(red, orange);
 		position: absolute;
 		top: 160px;
 		right: 0;

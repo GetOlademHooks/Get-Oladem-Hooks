@@ -193,24 +193,16 @@ nav ul li a:hover{
 	
 }
 
-footer p{
-	font-size: 10px;
-	color: indigo;
-	font-weight: bold;
-	background-color: thistle;
-	text-align: center;
-	font-family: arial;
-	margin-bottom: 0px;
-	
-	
-}
 
-footer {
-	
-	margin-bottom: 0px;
-	
-	
-	
+.footer {
+position: fixed;
+left: 10px;
+bottom: 5px;
+right: 10px; 
+width: 95%;
+background-color: transparent;
+color: white;
+text-align: center;
 }
 
 

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-<html lang="en">
-	<head>
-		<link rel="stylesheet" href="css/Services.css"
-type="text/css">
+	<html lang="en">
+		<head>
+			<link rel="stylesheet" href="css/Services.css"
+	type="text/css">
 	
 	<!-- Gen info -->
 		<title> Get your next hitsong now!</title>
@@ -50,7 +50,7 @@ type="text/css">
 						
 					</ul>
 				</nav>
-				<img src = "css/nav.jpg" class = "icon" onclick = "togmenu()">
+				<img src = "css/nav.JPG" class = "icon" onclick = "togmenu()">
 		</div>
 		
 		<div class= "row">
@@ -72,12 +72,15 @@ type="text/css">
 				<p> <a href="beat.html"> Or Beat producer </a></p>
 			</div>
 		</div>
-		<footer>
-				
-				<p> &copy 2022 Get Oladen Hits. All rights reserved</p>
+		<div class="footer">
+			<footer>
+			
+			<p> &copy 2022 Get Oladen Hits. All rights reserved.</p>
 
 
-		</footer>
+			</footer>
+		</div>
+	
 
 		
 	</body>

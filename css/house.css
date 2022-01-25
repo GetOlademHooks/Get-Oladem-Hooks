@@ -191,23 +191,19 @@ nav ul li a:hover{
 	
 }
 
-footer p{
-	font-size: 10px;
-	color: indigo;
-	font-weight: bold;
-	background-color: thistle;
+.footer {
+	
+	
+		position: fixed;
+	left: 0px;
+	bottom: 5px;
+	right: 10px; 
+	width: 100%;
+	background-color: transparent;
+	color: aqua;
 	text-align: center;
-	font-family: arial;
-	
-	
-	
+	font-size: 10px;
 }
-
-footer{
-	position: relative;
-	margin-bottom: 0px;
-}
-
 
 
 
@@ -705,22 +701,14 @@ figcaption p{
 		
 	}
 	
-	footer p{
+	.footer p{
 	font-size: 20px;
-	color: indigo;
-	font-weight: bold;
-	background-color: lavender;
-	text-align: center;
-	font-family: arial;
-	margin: 380px 50px;
-	font-family: arial;
+
 	
 	}
 
-	footer {
 	
-	
-	
+
 	
 	
 	}

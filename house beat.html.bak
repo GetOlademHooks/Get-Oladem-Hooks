@@ -1,9 +1,11 @@
-<html lang="en">
-	<head>
-		<meta charset= "utf-8">
-		<title> Home </title>
-		<link rel="stylesheet" href="css/house beat.css"
-		type="text/css">
+<!DOCTYPE html>
+<html>
+	<html lang="en">
+		<head>
+			<meta charset= "utf-8">
+			<title> Home </title>
+			<link rel="stylesheet" href="css/house beat.css"
+			type="text/css">
 	
 	<!-- Gen info -->
 		<!--title> Get your next hitsong now!</title-->
@@ -127,13 +129,14 @@
 					</a>
 				</div>
 			</div>
-		
-			<footer>
+			<div class="footer">
+				<footer>
 				
 				<p> &copy 2022 Get Oladen Hits. All rights reserved.</p>
 
 
-			</footer>
+				</footer>
+			</div>
 		
 		
 		  

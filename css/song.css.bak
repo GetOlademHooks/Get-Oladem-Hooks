@@ -115,7 +115,7 @@ body {
 
 #menu-outer {
 	height: 84px;
-	background: linear-gradient(red ,  aqua);
+	
 	color: indigo;
 	margin: 30px 0 0 260px;
 	font-size: 17px;
@@ -314,7 +314,7 @@ article{
 	padding-right: 8%;
 	box-sizing: border-box;
 	overflow: hidden;
-	background: linear-gradient(navy ,  aqua);
+	background: linear-gradient(aqua ,  black);
 	margin:350px 0px;
 	
 
@@ -331,22 +331,22 @@ width: 100%;
 }
 
 section h2{  
-color: indigo;
-font-size: 25px;
+color: cyan;
+font-size: 27px;
 
 }
 
 
 section a{  
 
-color: navy;
+color: white;
 }
 
 
 header{  
 
  text-decoration: underline;
- color: indigo;
+ color: aqua;
  font-size: 25px;
 padding:15px;  
 margin: 120px 0 0 350px;
@@ -358,7 +358,7 @@ footer p{
 	font-size: 10px;
 	color: indigo;
 	font-weight: bold;
-	background-color: red;
+	background-color: yellow;
 	text-align: center;
 	font-family: arial;
 	margin: -180px -80px;
@@ -408,7 +408,7 @@ footer p{
 	}
 	
 	section h2{  
-		color: indigo;
+		color: aqua;
 		font-size: 35px;
 
 	}
@@ -416,7 +416,7 @@ footer p{
 
 	section a{  
 
-		color: navy;
+		color: white;
 		font-size: 28px;
 	}
 	
@@ -510,15 +510,16 @@ footer p{
   }
   
   	footer p{
-	font-size: 20px;
+	font-size: 22px;
 	color: indigo;
 	font-weight: bold;
-	background-color: thistle;
+	background-color: white;
 	text-align: center;
 	font-family: arial;
 	
 	font-family: arial;
-		margin-left: -200px;
+		margin-left: -245px;
+	
 
 	
 	

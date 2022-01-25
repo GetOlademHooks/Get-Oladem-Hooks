@@ -191,23 +191,19 @@ nav ul li a:hover{
 	
 }
 
-footer p{
-	font-size: 10px;
-	color: indigo;
-	font-weight: bold;
-	background-color: thistle;
+.footer {
+	
+	
+		position: fixed;
+	left: 0px;
+	bottom: 5px;
+	right: 10px; 
+	width: 100%;
+	background-color: transparent;
+	color: aqua;
 	text-align: center;
-	font-family: arial;
-	
-	
-	
+	font-size: 10px;
 }
-
-footer{
-	position: relative;
-	margin-bottom: 0px;
-}
-
 
 
 
@@ -334,7 +330,7 @@ font-family: arial;
 	-webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
 	-moz-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
 	box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.10);
-	height: 400px;
+	height: 340px;
 
 	
 
@@ -705,22 +701,20 @@ figcaption p{
 		
 	}
 	
-	footer p{
+	/*footer p{
 	font-size: 20px;
 	color: indigo;
 	font-weight: bold;
 	background-color: lavender;
-	text-align: center;
+	text-align: bottom;
 	font-family: arial;
-	margin: 380px 50px;
+	margin: 750px 50px;
 	font-family: arial;
 	
-	}
+	}*/
 
-	footer {
 	
-	
-	
+
 	
 	
 	}
