@@ -48,7 +48,7 @@
 						
 					</ul>
 				</nav>
-				<img src = "css/nav.jpg" class = "icon" onclick = "togmenu()">
+				<img src = "css/nav.JPG" class = "icon" onclick = "togmenu()">
 		</div>
 			
 

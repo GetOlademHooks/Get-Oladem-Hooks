@@ -2,7 +2,7 @@
 <html>
 	<html lang="en">
 		<head>
-			<link rel="stylesheet" href="css/Services.css"
+			<link rel="stylesheet" href="css/About.css"
 	type="text/css">
 	
 	<!-- Gen info -->
@@ -13,7 +13,7 @@
 		<meta name="description" content="While our competitors focus on bubblegum music, we focus on providing services that 
 		will ensure you produce good melodic music that is both developing and growing"/>
 		<!-- links to the css file "stylesheet" and site icon -->
-		<link href="css/Services.css" type="text/css" rel="stylesheet">
+		<link href="css/About.css" type="text/css" rel="stylesheet">
 		
 		
 	</head>
@@ -33,7 +33,7 @@
 					<ul id= "menu">
 					
 						<li><a href="index.html">Home</a></li>
-						<li><a href="About.html">About</a></li>
+						<li><a href="/">About</a></li>
 						<li class="Services">
 							<a href="Services.html">Services</a>
 							
@@ -55,23 +55,12 @@
 		
 		<div class= "row">
 			<div class= "col1">
-				<h2 > Need a catchy hook,</h2> <h3>chorus, beat, or song??</h3>  <h4>Select any service below to get started! </h4>
+			<h2>We beleive in the phrase, “Melody is the single most important thing to any song, period...” -Ryan Tedder </h2>
+				<p> We are a small enterprise established in 2021, Pretoria, South Africa; it consists of lycists, songwriters, and beat producers who add melody to everything they deliver. 
+				  We are more concerned about starting with offering services we are most passionate about for free until there is some trust, loyalty, and understanding between us and our
+				  clients/ end-users. </p> 
 			
 		
-			</div>
-
-		</div>
-		<div class="box-wrap">
-			<div class="box">
-				<p>  <a href="Lyric writing.html">Get a Lyricist</a></p>
-			</div>
-			<div class="box">
-				<p> <a href="Songwriter.html">Get a Songwriter </a></p>
-			</div>
-			<div class="box">
-				<p> <a href="beat.html"> Or Beat producer </a></p>
-			</div>
-		</div>
 		<div class="footer">
 			<footer>
 			

@@ -133,12 +133,15 @@
 				</div>
 			</div>
 		
-			<footer>
+		
+			<div class="footer">
+				<footer>
 				
 				<p> &copy 2022 Get Oladen Hits. All rights reserved.</p>
 
 
-			</footer>
+				</footer>
+			</div>
 		
 		
 		  

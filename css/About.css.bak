@@ -12,30 +12,24 @@
 .demo-bg {
   opacity: 0.4;
   position: fixed;
-  left: 0;
+  left: 0%;
   top: 0;
   width: 100%;
   height: auto;
   min-height: 100%;
   min-width: 1024px;
-  background-size: cover;
-	margin: 0;
-	background-repeat: no-repeat;
-	background-position: center center;
-	align-items: center;
-  
+ 
 }
 
 body {
 	
 	
 	background: linear-gradient(aqua ,  indigo);
-
-	background-attachment: fixed;
-
 	
-	min-height: 100%;
-	background-size: 100% 100%;
+	
+	
+	min-height: 100vh;
+	background-size: cover;
 	margin: 0;
 	background-repeat: no-repeat;
 	background-position: center center;
@@ -73,7 +67,14 @@ article{
 	align-items: center;
 	position: relative;
 	margin-top: -30px;
-		
+	
+	
+	
+	
+
+
+	
+	
 }
 
 
@@ -111,10 +112,9 @@ nav ul li{
 Services {
 	position: relative;
 }
-
 .dropdown {
-	background-color: linear-gradient(aqua, plum);
-	border:1px solid aqua;  
+	background-color: linear-gradient(black, plum);
+	border:1px solid plum;  
 
 	padding: 1em 1em;
 	position: absolute;
@@ -135,7 +135,7 @@ Services {
 }
 
 .dropdown li:hover {
-	background-color: purple;
+	background-color: plum;
 }
 .dropdown a {
 	font-size: 12px;
@@ -157,32 +157,34 @@ nav ul li a{
 	font-weight: bold;
 	color: indigo;
 	padding: 0.5em 9px;
-    border-bottom: 1.5px solid aqua;
+    border-bottom: 1.5px solid indigo;
 	border-width: -90px;
 	font-family: arial;
 }
 
 nav ul li a:hover{
-	color: plum;
+	color: purple;
 }
 
 .row{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 100px 0px;
+	margin: 50px 0px;
+
 	
 }
 
 .col1{
 	flex-basis: 180%;
-	position: absolute;
+	position: relative;
+		
 	
 	
 }
 
 .col1 h2{
-font-size: 35px;
+font-size: 22px;
 color: indigo;
 font-weight: bold;
 
@@ -193,24 +195,23 @@ font-family: arial;
 }
 
 
-.col1 h3{
-font-size: 35px;
-color: indigo;
+.col1 p{
+font-size: 20px;
+color: navy;
 font-weight: bold;
-
+border:2px solid aqua;
 font-family: arial;
 
 
 }
 .col1 h4{
 font-size: 35px;
-color: indigo;
+color: navy;
 font-weight: bold;
 
 font-family: arial;
 
 }
-
 
 
 .footer {
@@ -222,10 +223,14 @@ width: 95%;
 background-color: transparent;
 color: white;
 text-align: center;
-font-size: 15px;
 
 }
 
+.footer p {
+border:none;
+font-size: 15px;
+
+}
 
 
 
@@ -278,34 +283,19 @@ font-size: 15px;
 
 
 section{  
-border:1px solid aqua;  
+border:1px solid plum;  
 padding:15px;  
 margin:10px;
 font-family: arial;
 color: thistle;
 }
 
-section h2{  
-color: indigo;
-
-}
-
-section p{  
-color: navy;
-font-size: 17px;
-}
-
-
-section a{  
-
-color: aquamarine;
-}
 header{  
  text-decoration: underline;
- color: indigo;
+ color: purple;
  font-size: 25px;
 padding:15px;  
-margin: 0px 0 0 400px;
+margin: 0px 0 0 420px;
 font-family: arial;
 }
 
@@ -322,7 +312,7 @@ font-family: arial;
 
 @media only screen and (max-width: 1024px) {
 	nav ul {
-		width: 50%;
+		width: 35%;
 		background: linear-gradient(black, plum);
 		position: absolute;
 		top: 50px;
@@ -348,6 +338,7 @@ font-family: arial;
 	
 	.icon {
 		display: block;
+		
 	
 		
 	}
@@ -378,52 +369,54 @@ font-family: arial;
 		 font-size: 15px;
 		 font-family: arial;
 		 font-weight: bold;
-		 color: indigo;
+		 color: thistle;
 	 }
 	 .box a{
 		 font-size: 12px;
-		 color: indigo;
+		 color: thistle;
 		 text-decoration: none;
 		 font-family: arial;
 	 }
 		 
 	 
-	 .col1{ 
-		flex-basis: 80%;
-	 }
-	 
-	 .col1 h2{
-		font-size: 15px;
-		
-		color: indigo;
-			
+	 .row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 0px;
 
-		
-		
-		font-family: arial;
-		
-	 }
-	 .col1 h3{
-		font-size: 15px;
-		
-		color: indigo;
 	
+}
+
+	.col1{
+		flex-basis: 180%;
+		position: relative;
+			
+		
+		
+	}
+
+	.col1 h2{
+	font-size: 15px;
+	color: indigo;
+	font-weight: bold;
+
+	font-family: arial;
+
 
 		
-		font-family: arial;
-		
-	 }
-	 .col1 h4{
-		font-size: 15px;
-		
-		color: indigo;
-		
+	}
 
-		
-		font-family: arial;
-		
-	 }
-	 
+
+	.col1 p{
+	font-size: 15px;
+	color: navy;
+	font-weight: bold;
+	border:1px solid aqua;
+	font-family: arial;
+
+
+	}
 
 	.dropdown li + li {
 	margin-top: 10px;
@@ -442,53 +435,56 @@ font-family: arial;
 	.logo {
 	width: 100px;
 	cursor: pointer;
-	margin: -27px -20px;
+	margin: 0px -10px;
 	
 	
 }
 	section{  
-		border:1px solid aqua;  
+		border:1px solid plum;  
 		padding:15px;  
 		margin:10px;
-		
 		
 	}
 	section h2{  
 		font-size: 17px;
-		
 		
 	}
 	
 	section p{  
 		font-size: 13px;
 		font-weight: none;
-		color:aqua;
 		
 	}
 
 	header{  
 		text-decoration: underline;
-		color: indigo;
+		color: thistle;
 		font-size: 15px;
 		padding:15px; 
 		margin: 0px 0 0 60px;
 		
 	}
 	
-	footer p{
-	font-size: 8.5px;
-	color: indigo;
-	font-weight: bold;
-	background-color: thistle;
-	text-align: center;
-	font-family: arial;
 	
-	font-family: arial;
+}
 	
+	
+	.footer p {
+	border:none;
+	font-size: 8px;
+
 	}
 
+		
 
-	
+
+	  .navbar {
+	max-width: 100%;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin-top: -15px;
+  }
 
 	
 
@@ -498,18 +494,6 @@ font-family: arial;
     left: 50%;
 	
     margin-left: -512px;   /* 50% */
-	background-size: cover;
-	margin: 0;
-	background-repeat: no-repeat;
-	background-position: center center;
-	align-items: center;
-  }
-  .navbar {
-	max-width: 100%;
-	display: flex;
-	align-items: center;
-	position: relative;
-	margin-top: -20px;
   }
 }
 

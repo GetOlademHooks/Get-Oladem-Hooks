@@ -221,6 +221,8 @@ width: 95%;
 background-color: transparent;
 color: white;
 text-align: center;
+font-size: 15px;
+
 }
 
 
@@ -454,7 +456,7 @@ font-family: arial;
 	
 }
 	.footer {
-	font-size: 5px;
+	font-size: 10px;
 	}
 
 		
