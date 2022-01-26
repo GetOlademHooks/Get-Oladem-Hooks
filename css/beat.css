@@ -147,7 +147,7 @@ ul#horizontal-list {
 	}
 
 	p{
-		color: red;
+		color: indigo;
 		border: 0px solid purple;
 		text-align: center;
 		position: absolute;
@@ -314,7 +314,8 @@ article{
 	padding-right: 8%;
 	box-sizing: border-box;
 	overflow: hidden;
-	background: linear-gradient(aqua ,  black);
+	background: linear-gradient(green ,  aqua);
+
 	margin:350px 0px;
 	
 
@@ -324,14 +325,15 @@ article{
 section{  
 border:1px solid blue;  
 padding:15px;  
-margin:40px;
+margin:40px 0px;;
 font-family: arial;
 color: thistle;
 width: 100%;
+
 }
 
 section h2{  
-color: cyan;
+color: indigo;
 font-size: 27px;
 
 }
@@ -339,14 +341,14 @@ font-size: 27px;
 
 section a{  
 
-color: white;
+color: purple;
 }
 
 
 header{  
 
  text-decoration: underline;
- color: aqua;
+ color: indigo;
  font-size: 25px;
 padding:15px;  
 margin: 120px 0 0 350px;
@@ -410,7 +412,7 @@ font-family: arial;
 	}
 	
 	section h2{  
-		color: aqua;
+		color: indigo;
 		font-size: 38px;
 
 	}
@@ -418,7 +420,7 @@ font-family: arial;
 
 	section a{  
 
-		color: white;
+		color: purple;
 		font-size: 28px;
 	}
 	
@@ -514,7 +516,7 @@ font-family: arial;
 
 	.footer {
 	font-size: 25px;
-	left: -5px;
+	left: -25px;
 	
 	bottom: -185px;
 	}
